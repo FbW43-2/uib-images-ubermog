@@ -1,12 +1,23 @@
 img {
-    border: 10px solid grey;
-    width: 100vh;
+  border: 10px solid grey;
+}
+
+img:nth-of-type(2) {
+  width: 52.7vh;
 }
 
 .ring {
-    border-radius: 50%;
+  width: 52.7vh;
+  border-radius: 50%;
 }
 
 .ring:hover {
-    border-radius: 0%;
+  border-radius: 0%;
+}
+
+.object-fit {
+  width: 90vh;
+
+  float: left;
+  object-fit: cover;
 }
