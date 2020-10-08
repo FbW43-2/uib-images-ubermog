@@ -1,0 +1,12 @@
+img {
+    border: 10px solid grey;
+    width: 100vh;
+}
+
+.ring {
+    border-radius: 50%;
+}
+
+.ring:hover {
+    border-radius: 0%;
+}
